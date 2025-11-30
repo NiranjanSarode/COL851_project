@@ -1,0 +1,94 @@
+{
+  "rpi_results": [
+    {
+      "cores": 1,
+      "mode": "No Covariates",
+      "latency_mean_s": 52.48269993079998,
+      "latency_std_s": 0.03068958487457731,
+      "throughput_hz": 0.019053897785718532,
+      "cpu_percent": 6.5200000000000005,
+      "memory_mb": 406.10546875,
+      "temp_c": 66.7116,
+      "rmse_mean": "45.368706"
+    },
+    {
+      "cores": 1,
+      "mode": "With Covariates",
+      "latency_mean_s": 52.55576813959997,
+      "latency_std_s": 0.019337878897468883,
+      "throughput_hz": 0.01902740717905168,
+      "cpu_percent": 4.9799999999999995,
+      "memory_mb": 405.6953125,
+      "temp_c": 67.68,
+      "rmse_mean": 60.78712779438867
+    },
+    {
+      "cores": 2,
+      "mode": "No Covariates",
+      "latency_mean_s": 33.4815461786,
+      "latency_std_s": 0.00850824418468938,
+      "throughput_hz": 0.029867198924019768,
+      "cpu_percent": 2.56,
+      "memory_mb": 403.06875,
+      "temp_c": 73.598,
+      "rmse_mean": "48.096233"
+    },
+    {
+      "cores": 2,
+      "mode": "With Covariates",
+      "latency_mean_s": 33.60000281900002,
+      "latency_std_s": 0.03316740005468733,
+      "throughput_hz": 0.029761902264916578,
+      "cpu_percent": 2.96,
+      "memory_mb": 400.97578125,
+      "temp_c": 75.1044,
+      "rmse_mean": 60.077711957539876
+    },
+    {
+      "cores": 3,
+      "mode": "No Covariates",
+      "latency_mean_s": 33.4850274848,
+      "latency_std_s": 0.010041267061094731,
+      "throughput_hz": 0.029864093749181905,
+      "cpu_percent": 0.9800000000000001,
+      "memory_mb": 398.05546875,
+      "temp_c": 75.4272,
+      "rmse_mean": "44.963276"
+    },
+    {
+      "cores": 3,
+      "mode": "With Covariates",
+      "latency_mean_s": 33.577543642799995,
+      "latency_std_s": 0.017345311144162875,
+      "throughput_hz": 0.02978180925436543,
+      "cpu_percent": 2.54,
+      "memory_mb": 394.8609375,
+      "temp_c": 75.96520000000001,
+      "rmse_mean": 57.513575908080554
+    },
+    {
+      "cores": 4,
+      "mode": "No Covariates",
+      "latency_mean_s": 34.85770834800005,
+      "latency_std_s": 1.7036903619517303,
+      "throughput_hz": 0.02868805918095802,
+      "cpu_percent": 6.459999999999999,
+      "memory_mb": 309.71640625,
+      "temp_c": 77.14880000000001,
+      "rmse_mean": "46.213326"
+    },
+    {
+      "cores": 4,
+      "mode": "With Covariates",
+      "latency_mean_s": 33.57989733539989,
+      "latency_std_s": 0.0088331461632946,
+      "throughput_hz": 0.02977972177853567,
+      "cpu_percent": 3.96,
+      "memory_mb": 313.5203125,
+      "temp_c": 76.7184,
+      "rmse_mean": 59.827472338199854
+    }
+  ],
+  "laptop_results": null,
+  "comparison_available": false
+}
