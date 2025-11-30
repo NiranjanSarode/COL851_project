@@ -5,6 +5,10 @@ import threading
 import random
 import matplotlib.pyplot as plt
 
+FIXED_SEED = 1
+random.seed(FIXED_SEED)      # Fixes the model variant choices
+np.random.seed(FIXED_SEED)   # Fixes the Poisson wait times
+
 SERVER_URL = "http://localhost:8001/predict"
 NUM_REQUESTS = 50
 
@@ -74,7 +78,7 @@ if __name__ == "__main__":
     plt.boxplot([lat_burst, lat_poisson], labels=['Burst (Sequential)', 'Poisson (Random Wait)'])
     plt.ylabel('Server Latency (ms)')
     plt.title('Baseline Server Performance')
-    # plt.savefig('server_baseline_results.png')
+    plt.savefig('server_baseline_results.png')
     plt.title('Optimized Server Performance (Batching + Caching + INT8)')
     
     print("\nResults:")
